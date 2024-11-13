@@ -1,0 +1,65 @@
+.navbar {
+    height: 80px;
+    position: relative; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.bitsLogo {
+    margin-left: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.menu-button:hover {
+    color: #FFB211;
+}
+
+.dropdown {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    flex-direction: column;
+    min-width: 180px;
+    transform: translateY(-10px);
+    transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.6s ease;
+    visibility: hidden;
+    display: flex;
+}
+
+.menu:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+.dropdown a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.dropdown a:hover {
+    color: #FFB211;
+}
