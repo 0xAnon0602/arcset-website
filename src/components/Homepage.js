@@ -37,7 +37,7 @@ function Homepage() {
 
           <div className="mainTitle">
             <span> CASET </span>
-            <img className='backgroundImage' src={coeLogo} width="90px" height="90px"></img>
+            <img src={coeLogo} alt="coeLogo" width="90px" height="90px"></img>
           </div>
 
           <div className="secondaryText">
