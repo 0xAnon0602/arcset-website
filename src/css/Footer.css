@@ -5,14 +5,18 @@
 }
 
 .footer {
-    background-color: #1B1818; /* Example color */
-    text-align: center;
+    background-color :#414141; /* Example color */
     padding: 1rem;
     height: 300px;
+    color: white;
 }
 
-.footer p {
-    color: white;
-    text-align: center;
-    font-size: 30px;
+.contact {
+    margin-left: 30px;
+}
+
+.contactTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
 }

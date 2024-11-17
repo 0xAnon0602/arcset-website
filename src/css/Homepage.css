@@ -29,14 +29,15 @@
 
 .labMain {
     display: flex;
+    margin-top: 8%;
 }
 
 .labTextSection {
-    max-width: 50%;
-    margin-top: 120px;
+    max-width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 .labText {
@@ -46,27 +47,19 @@
 
 .labTextMain{
     font-weight: bold;
+    color: white;
 }
-
 
 .labOtherText {
-    margin-top: -10px;
-    margin-left: 40px;
     font-size: 25px;
-    color: #6E7273;
+    color: white;
 }
 
-.labCarousel {
-    margin-top: 160px;
-    margin-left: 20px;
-}
 
 .carousel {
-    margin-top: 150px;
     width: 100%;
     overflow: hidden;
-    margin-left: 20px;
-  }
+}
   
 .carousel-images {
     display: flex;

@@ -57,6 +57,8 @@ const menuData = [
 ];
 
 function Navbar() {
+
+
   return (
     <div className="navbar">
       <div className="bitsLogo">
@@ -65,13 +67,16 @@ function Navbar() {
         </a>
       </div>
 
+      <div className="menu">
+        <NavLink className="menu-button" to='/'>Home</NavLink>
+      </div>
+
       {menuData.map((menu, index) => (
         <div className="menu" key={index}>
           <button className="menu-button">{menu.title}</button>
           <div className="dropdown">
             {Object.keys(menu.options).map((option, idx) => (
-              <NavLink to={menuData[index].options[option]}>{option}
-              </NavLink>
+              <NavLink to={menuData[index].options[option]}>{option}</NavLink>
             ))}
           </div>
         </div>
