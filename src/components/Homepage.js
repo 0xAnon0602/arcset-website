@@ -8,7 +8,7 @@ function Homepage() {
     'https://images.unsplash.com/photo-1667995508178-e24e78cd944c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://plus.unsplash.com/premium_photo-1661434779070-cf8fc0e253ab?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://plus.unsplash.com/premium_photo-1661430659143-ffbb5ce2b6a7?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   ];
 
   const industryLogo = [
@@ -22,70 +22,92 @@ function Homepage() {
     "https://img.freepik.com/premium-vector/stylized-hummingbird-premium-vector-illustration_629132-102.jpg?w=1060"
   ]
 
+  const texts = [
+    {
+      title: "Lab And Prototypes 1",
+      description: "Deserunt ex ad consectetur non ipsum adipisicing eiusmod."
+    },
+    {
+      title: "Lab And Prototypes 2",
+      description: "This is a cwe  ewcb cwe wnhebfwc eubce cn uewcw cebfwbc we."
+    },
+    {
+      title: "Lab And Prototypes 3",
+      description: "Description for image 3."
+    },
+    {
+      title: "Lab And Prototypes 4",
+      description: "Description for image 4."
+    }
+  ];
+  
+  const [currentText, setCurrentText] = useState(texts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+      setCurrentIndex((prevIndex) => {
+        const newIndex = (prevIndex + 1) % images.length;
+        setCurrentText(texts[newIndex]);
+        return newIndex;
+      });
     }, 3000); 
     return () => clearInterval(interval); 
-  }, [images.length]);
-
+  }, [images.length, texts]);
 
   return (
-      <div className="homepage">
+    <div className="homepage">
 
-        <div className="mainTitle">
-          <span> CASET </span>
-          <img src={coeLogo} alt="coeLogo" width="90px" height="90px"></img>
-        </div>
+      <div className="mainTitle">
+        <span> CASET </span>
+        <img src={coeLogo} alt="coeLogo" width="90px" height="90px"></img>
+      </div>
 
-        <div className="secondaryText">
-          <p> Centre for Advancement in Sustainable Energy Technologies </p>
-        </div>
+      <div className="secondaryText">
+        <p> Centre for Advancement in Sustainable Energy Technologies </p>
+      </div>
 
-        <div className="otherText">
-          <p>The First COE Of Energy Research <br/>"For Goa, Of Goa, By Goa"</p>
-        </div> 
+      <div className="otherText">
+        <p>The First COE Of Energy Research <br/>"For Goa, Of Goa, By Goa"</p>
+      </div> 
 
-        <div className="labMain">
-
-          <div className="labTextSection">
-
-            <div className="labText">
-              <p className='labTextMain'>Lab  And  <br/> Prototypes</p>
-              <p className="labOtherText">Lorem eu sunt consequat magna reprehenderit proident aliqua. Eu minim ea aliquip dolor occaecat exercitation veniam cillum. Eiusmod irure cupidatat consequat pariatur minim ipsum minim. Sint voluptate in commodo excepteur veniam proident mollit sit cillum veniam ex proident.</p>
-            </div>
-
-          </div>
-
-          <div className="carousel">
-            <div
-              className="carousel-images"
-              style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-            >
-              {images.map((image, index) => (
-                <img key={index} src={image} alt={`Slide ${index}`} />
-              ))}
-            </div>
-          </div>
-
-        </div>
-
-        <div className="industryInfo">
-          <p className="industryTitle">Industry Partners</p>
-          <div className="industryLogos">
-            {industryLogo.map((logo, index) => (
-              <div key={index} className="logoContainer">
-                <img width="100px" height="100px" src={logo} alt={`Logo ${index}`} className="industryLogoImage" />
-                <p className="logoText">Logo {index + 1}</p> 
+      <div className="labMain">
+        <div
+          className="labSlider"
+          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        >
+          {images.map((image, index) => (
+            <div key={index} className="labSlide">
+              <div className="labTextSection">
+                <div className="labText">
+                  <p className="labTextMain">{texts[index].title}</p>
+                  <p className="labOtherText">{texts[index].description}</p>
+                </div>
               </div>
-            ))}
-          </div>
+              <div className="carousel">
+                <img src={image} alt={`Slide ${index}`} />
+              </div>
+            </div>
+          ))}
         </div>
+      </div>
+
+
+      <div className="industryInfo">
+        <p className="industryTitle">Industry Partners</p>
+        <div className="industryLogos">
+          {industryLogo.map((logo, index) => (
+            <div key={index} className="logoContainer">
+              <img width="100px" height="100px" src={logo} alt={`Logo ${index}`} className="industryLogoImage" />
+              <p className="logoText">Logo {index + 1}</p> 
+            </div>
+          ))}
+        </div>
+      </div>
 
     </div>
   );
+
 }
 
 export default Homepage;
