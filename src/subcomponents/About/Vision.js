@@ -1,4 +1,3 @@
-import '../../css/Vision.css'
 
 function Vision() {
     return (

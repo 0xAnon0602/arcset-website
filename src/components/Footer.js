@@ -34,8 +34,10 @@ function Footer() {
 
 
             <div className="other">
-                <p className="socialTitle">Social</p>
-                <p>Follow us on social media</p>
+                <p className="contactTitle">Connect With Us </p>
+                <div className='socialLogo'>
+                    <SiLinkedin  size={18}/>
+                </div>
             </div>
 
 

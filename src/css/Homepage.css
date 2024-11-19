@@ -7,11 +7,11 @@
 .mainTitle span {
     font-size: 100px;
     font-weight: bolder;
-    margin-right: 20px;
+    margin-right: 7px;
 }
 
 .mainTitle img {
-    margin-top: 28px;
+    margin-top: 5px;
 }
 
 .secondaryText p {
@@ -25,18 +25,19 @@
     text-align: center;
     font-size: 30px;
     color: #6E7273;
+    margin-bottom: 80px;
 }
 
 .labMain {
     display: flex;
-    overflow: hidden; /* Hide overflow to enable smooth sliding */
+    overflow: hidden; 
     width: 100%;
     position: relative;
   }
   
   .labSlider {
     display: flex;
-    transition: transform 0.5s ease; /* Smooth transition effect */
+    transition: transform 0.5s ease; 
     width: 100%;
   }
 
@@ -88,7 +89,11 @@
 .carousel img {
     width: 100%;
     height: auto;
-  }
+}
+
+.industryInfo{
+    margin-bottom: 40px;
+}
 
 .industryTitle {
     margin-top: 40px;

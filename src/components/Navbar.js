@@ -1,4 +1,5 @@
 import bitsLogo from '../images/logo/bitsLogo.png';
+import ceoLogo from '../images/logo/ceoLogoWithoutText.jpeg'
 import { NavLink } from "react-router-dom";
 import '../css/Navbar.css';
 
@@ -61,10 +62,9 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="bitsLogo">
-        <a href='https://www.bits-pilani.ac.in/goa/'>
-          <img src={bitsLogo} alt="Logo" width="70"/>
-        </a>
+      
+      <div className="coeLogo">
+        <img src={ceoLogo} alt="Logo" width="75"/>
       </div>
 
       <div className="menu">
@@ -81,6 +81,13 @@ function Navbar() {
           </div>
         </div>
       ))}
+
+      <div className="bitsLogo">
+        <a href='https://www.bits-pilani.ac.in/goa/'>
+          <img src={bitsLogo} alt="Logo" width="65"/>
+        </a>
+      </div>
+
     </div>
   );
 }

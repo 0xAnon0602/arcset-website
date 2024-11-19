@@ -5,14 +5,9 @@
     display: flex;
 }
 
-.bitsLogo {
-    margin-left: 10px;
-    margin-top: 5px
-}
-
 .coeLogo {
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px
 }
 
 .menu {
@@ -32,7 +27,7 @@
 }
 
 .menu-button:hover {
-    color: #FFB211;
+    color: #6db33e;
 }
 
 .dropdown {
@@ -69,5 +64,11 @@
 }
 
 .dropdown a:hover {
-    color: #FFB211;
+    color: #6db33e;
+}
+
+.bitsLogo {
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 5px
 }
