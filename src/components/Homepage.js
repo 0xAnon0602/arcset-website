@@ -1,4 +1,4 @@
-import coeLogo from '../images/logo/coeLogo.jpeg'
+import coeLogo from '../images/logo/coeLogo.jpg'
 import '../css/Homepage.css'
 import React, { useState, useEffect } from 'react';
 
@@ -94,12 +94,12 @@ function Homepage() {
     <div className="homepage">
 
       <div className="mainTitle">
-        <span> CASET </span>
-        <img src={coeLogo} alt="coeLogo" width="120px" height="120px"></img>
+        <span> ARCSET </span>
+        <img src={coeLogo} alt="coeLogo" width="140px" height="130px"></img>
       </div>
 
       <div className="secondaryText">
-        <p> Centre for Advancement in Sustainable Energy Technologies </p>
+        <p> Advanced Research Centre For Sustainable Energy Technologies </p>
       </div>
 
       <div className="otherText">

@@ -13,6 +13,7 @@ import Biofuels from './subcomponents/Research/Biofuels'
 import Renewables from './subcomponents/Research/Renewables'
 import Carbon from './subcomponents/Research/Carbon'
 
+import AssociatedFaculty from './subcomponents/People/AssociatedFaculty'
 
 function App() {
   return (
@@ -33,6 +34,10 @@ function App() {
             <Route path="/research/biofuels" element={<Biofuels />} />
             <Route path="/research/renewables" element={<Renewables />} />
             <Route path="/research/carbon-capture" element={<Carbon />} />
+
+
+            <Route path="/people/associated-faculty" element={<AssociatedFaculty />} />
+
 
             
             <Route path="*" element={<Error404 />} />

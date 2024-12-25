@@ -1,5 +1,5 @@
 import bitsLogo from '../images/logo/bitsLogo.png';
-import ceoLogo from '../images/logo/ceoLogoWithoutText.jpeg'
+import ceoLogo from '../images/logo/coeLogoWithoutText.jpg'
 import { NavLink } from "react-router-dom";
 import '../css/Navbar.css';
 
