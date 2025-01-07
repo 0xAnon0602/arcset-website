@@ -5,14 +5,9 @@ import React, { useState, useEffect } from 'react';
 function Homepage() {
 
   const industryLogo = [
-    "https://img.freepik.com/premium-vector/bird-logo-vector-design_1020392-9.jpg?w=1060",
-    "https://png.pngtree.com/png-clipart/20200727/original/pngtree-rooster-creative-logo-design-template-png-image_5327856.jpg",
-    "https://st2.depositphotos.com/3487615/5752/v/450/depositphotos_57526709-stock-illustration-phoenix-logo-design-symbol-vector.jpg",
-    "https://i.pinimg.com/736x/cd/95/7a/cd957ad812878612f006fb7c3b698cd0.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5MDdXUuF-eLzAeCpTxXGSQ_m2PMrFDmZAQokYMwZOAHgBOsW3yJaZ99ENg3QdeHT0o90&usqp=CAU",
-    "https://img.freepik.com/premium-vector/colorful-bird-with-colorful-tail-is-shown-white-background_1187092-33056.jpg?w=2000",
-    "https://img.freepik.com/premium-vector/colorful-bird-gradient-illustration-logo-concept_1253202-1713.jpg?w=1060",
-    "https://img.freepik.com/premium-vector/stylized-hummingbird-premium-vector-illustration_629132-102.jpg?w=1060"
+    "https://www.next-chemx.com/wp-content/themes/nextchemx/assets/img/logo.png",
+    "https://ionexchangeglobal.com/app/uploads/2022/05/ion-logo.webp",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopngCefg2XIl_1WQTv-9X9CMAcdU5aWns3Q&s",
   ]
 
   const labImages = [
@@ -25,11 +20,11 @@ function Homepage() {
   const labTexts = [
     {
       title: "Lab And Prototypes 1",
-      description: "Deserunt ex ad consectetur non ipsum adipisicing eiusmod."
+      description: "Description for image 1."
     },
     {
       title: "Lab And Prototypes 2",
-      description: "This is a cwe  ewcb cwe wnhebfwc eubce cn uewcw cebfwbc we."
+      description: "Description for image 2."
     },
     {
       title: "Lab And Prototypes 3",
@@ -51,11 +46,11 @@ function Homepage() {
   const achievementText = [
     {
       title: "Achievement 1",
-      description: "Deserunt ex ad consectetur non ipsum adipisicing eiusmod."
+      description: "Description for image 1."
     },
     {
       title: "Achievement 2",
-      description: "This is a cwe  ewcb cwe wnhebfwc eubce cn uewcw cebfwbc we."
+      description: "Description for image 2."
     },
     {
       title: "Achievement 3",
@@ -103,7 +98,6 @@ function Homepage() {
       </div>
 
       <div className="otherText">
-        {/* <p>The First COE Of Energy Research <br/>"For Goa, Of Goa, By Goa"</p> */}
         <p>First of a kind Energy Center<br/>"For Goa, Of Goa, By Goa"</p>
       </div> 
 
@@ -154,12 +148,15 @@ function Homepage() {
       <div className="industryInfo">
         <p className="industryTitle">Industry Partners</p>
         <div className="industryLogos">
-          {industryLogo.map((logo, index) => (
-            <div key={index} className="logoContainer">
-              <img width="100px" height="100px" src={logo} alt={`Logo ${index}`} className="industryLogoImage" />
-              <p className="logoText">Logo {index + 1}</p> 
-            </div>
-          ))}
+          <a href="https://www.next-chemx.com/" className="logoContainer">
+            <img style={{ width: '200px', height: '60px' }} src={industryLogo[0]} className="industryLogoImage" />
+          </a>
+          <a href="https://ionexchangeglobal.com/" className="logoContainer">
+            <img style={{ width: '180px', height: '60px' }} src={industryLogo[1]} className="industryLogoImage" />
+          </a>
+          <a href="https://www.chemdistgroup.com/" className="logoContainer">
+            <img style={{ width: '120px', height: '60px' }} src={industryLogo[2]} className="industryLogoImage" />
+          </a>
         </div>
       </div>
 
