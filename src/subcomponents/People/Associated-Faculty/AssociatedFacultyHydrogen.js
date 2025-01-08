@@ -12,7 +12,7 @@ function AssociatedFaculty({ name, position, department, college, imageUrl, link
     );
 }
 
-export default function FacultyList() {
+export default function AssociatedFacultyHydrogen() {
     const facultyData = [
         {
             name: "Naveen Kumar Shrivastava",
@@ -140,7 +140,7 @@ export default function FacultyList() {
 
         <div>
 
-            <p className="componentTitle"> Associated Faculty </p>
+            <p className="componentTitle"> Hydrogen Associated Faculty</p>
             <div className="faculty-cards-container">
                 {facultyData.map((faculty, index) => (
                     <AssociatedFaculty

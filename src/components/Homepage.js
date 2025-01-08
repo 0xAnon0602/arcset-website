@@ -149,7 +149,7 @@ function Homepage() {
         <p className="industryTitle">Industry Partners</p>
         <div className="industryLogos">
           <a href="https://www.next-chemx.com/" className="logoContainer">
-            <img style={{ width: '200px', height: '60px' }} src={industryLogo[0]} className="industryLogoImage" />
+            <img style={{ width: '250px', height: '60px' }} src={industryLogo[0]} className="industryLogoImage" />
           </a>
           <a href="https://ionexchangeglobal.com/" className="logoContainer">
             <img style={{ width: '180px', height: '60px' }} src={industryLogo[1]} className="industryLogoImage" />

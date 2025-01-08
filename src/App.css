@@ -21,6 +21,14 @@
     margin-bottom: 5%;
 }
 
+.profLink {
+    margin-top: 0px !important;
+    font-size: 20px;
+    text-align: end;
+    margin: 7%;
+    color: #000000;
+}
+
 .faculty-card {
     width: 300px;
     margin: 20px;

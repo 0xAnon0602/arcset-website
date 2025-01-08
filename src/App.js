@@ -13,7 +13,10 @@ import Biofuels from './subcomponents/Research/Biofuels'
 import Renewables from './subcomponents/Research/Renewables'
 import Carbon from './subcomponents/Research/Carbon'
 
-import AssociatedFaculty from './subcomponents/People/AssociatedFaculty'
+import AssociatedFacultyHydrogen from './subcomponents/People/Associated-Faculty/AssociatedFacultyHydrogen'
+import AssociatedFacultyBiofuels from './subcomponents/People/Associated-Faculty/AssociatedFacultyBiofuels';
+import AssociatedFacultyRenewables from './subcomponents/People/Associated-Faculty/AssociatedFacultyRenewables';
+import AssociatedFacultyCarbonCapture from './subcomponents/People/Associated-Faculty/AssociatedFacultyCarbonCapture';
 
 function App() {
   return (
@@ -36,7 +39,12 @@ function App() {
             <Route path="/research/carbon-capture" element={<Carbon />} />
 
 
-            <Route path="/people/associated-faculty" element={<AssociatedFaculty />} />
+            <Route path="/faculty/hydrogen" element={<AssociatedFacultyHydrogen />} />
+            <Route path="/faculty/biofuels" element={<AssociatedFacultyBiofuels />} />
+            <Route path="/faculty/renewables" element={<AssociatedFacultyRenewables />} />
+            <Route path="/faculty/carbon-capture" element={<AssociatedFacultyCarbonCapture />} />
+
+            <Route path="/people/associated-faculty" element={<AssociatedFacultyHydrogen />} />
 
 
             
