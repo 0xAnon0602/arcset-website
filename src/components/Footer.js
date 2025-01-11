@@ -25,11 +25,11 @@ function Footer() {
             </div>
 
             <div className="social">
-                <p className="contactTitle">Connect With Us </p>
-                <div className='socialLogo'>
-                    <SiLinkedin  size={18}/>
-                </div>
-                    
+                <p className="contactTitle">Created And Maintained</p>
+                <p className="contactText"> 
+                    Utkarsh Singh <br />
+                    Deept Ratna
+                </p>
             </div>
 
 

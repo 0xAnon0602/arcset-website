@@ -18,7 +18,7 @@ export default function AssociatedFacultyBiofuels() {
             name: "Anirban Roy",
             position:"Associate Professor",
             department: "Chemical Engineering Department",
-            college: "BITS Pilani, Hyderabad Campus",
+            college: "BITS Pilani, Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Anirban-Roy.jpg",
             link: "https://www.bits-pilani.ac.in/goa/anirban-roy/"
         },
