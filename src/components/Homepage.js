@@ -1,5 +1,7 @@
 import coeLogo from '../images/logo/coeLogo.jpg'
+import backgroundVideo from '../images/background.mp4';
 import '../css/Homepage.css'
+
 import React, { useState, useEffect } from 'react';
 
 function Homepage() {
@@ -88,18 +90,25 @@ function Homepage() {
   return (
     <div className="homepage">
 
-      <div className="mainTitle">
-        <span> ARCSET </span>
-        <img src={coeLogo} alt="coeLogo" width="140px" height="130px"></img>
-      </div>
+      <div className="backgroundVideo">
+        <video className="backgroundVideoElement" autoPlay loop muted>
+          <source src={backgroundVideo} type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
 
-      <div className="secondaryText">
-        <p> Advanced Research Centre For Sustainable Energy Technologies </p>
-      </div>
+        <div className="mainTitle">
+          <span> ARCSET </span>
+          <img src={coeLogo} alt="coeLogo" width="140px" height="130px"></img>
+        </div>
 
-      <div className="otherText">
-        <p>First of a kind Energy Center<br/>"For Goa, Of Goa, By Goa"</p>
-      </div> 
+        <div className="secondaryText">
+          <p> Advanced Research Centre For Sustainable Energy Technologies </p>
+        </div>
+
+        <div className="otherText">
+          <p>First of a kind Energy Center<br/>"For Goa, Of Goa, By Goa"</p>
+        </div> 
+      </div>
 
       <div className="labMain">
         <div
