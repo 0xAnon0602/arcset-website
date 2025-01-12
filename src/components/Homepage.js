@@ -98,7 +98,6 @@ function Homepage() {
 
         <div className="mainTitle">
           <span> ARCSET </span>
-          <img src={coeLogo} alt="coeLogo" width="140px" height="130px"></img>
         </div>
 
         <div className="secondaryText">
