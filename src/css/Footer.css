@@ -42,3 +42,8 @@
 .socialLogo {
     margin-top: 12%;
 }
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

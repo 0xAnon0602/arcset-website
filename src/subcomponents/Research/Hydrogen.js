@@ -11,7 +11,7 @@ function Hydrogen() {
             <p className="componentText bottomMargin">By collaborating with industry partners, the vertical will pilot and scale promising technologies, expediting their market readiness and real-world deployment. Targeted funding will support projects that address key challenges in hydrogen production, utilization, and infrastructure. Additionally, the vertical will engage with policymakers to help shape regulatory frameworks that foster a resilient hydrogen ecosystem, laying the groundwork for a sustainable, low-carbon energy future.</p>
 
             <p className="profLink">
-                <NavLink to="/faculty/hydrogen" > Associated Professors </NavLink>
+                <NavLink to="/people/associated-faculty/hydrogen" > Associated Professors </NavLink>
             </p>
             
         </div>

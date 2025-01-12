@@ -29,10 +29,10 @@ const menuData = [
       'Associate Faculty': {
         type: 'nested',
         items: {
-          'Hydrogen': '/faculty/hydrogen',
-          'Biofuels': '/faculty/biofuels',
-          'Renewables': '/faculty/renewables',
-          'Carbon Capture': '/faculty/carbon-capture',
+          'Hydrogen': '/people/associated-faculty/hydrogen',
+          'Biofuels': '/people/associated-faculty/biofuels',
+          'Renewables': '/people/associated-faculty/renewables',
+          'Carbon Capture': '/people/associated-faculty/carbon-capture',
         },
       },
       'Visiting/Chair Professors': '/people/visiting-chair-professors',
@@ -50,9 +50,9 @@ const menuData = [
   {
     title: 'Openings',
     options: {
-      'PhD Openings': '/openings/phd',
-      'Postdoctoral Openings': '/openings/postdoctoral',
-      'Faculty Openings': '/openings/faculty',
+      'PhD Openings': 'https://www.bits-pilani.ac.in/careers/',
+      'Postdoctoral Openings': 'https://www.bits-pilani.ac.in/careers/',
+      'Faculty Openings': 'https://www.bits-pilani.ac.in/career/faculty-positions/',
     },
   },
 ];

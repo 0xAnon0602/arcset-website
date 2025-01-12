@@ -9,7 +9,7 @@ function Footer() {
             <div className="contactDiv">
                 <div className="contact">
                     <p className="contactTitle">Contact</p>
-                    <p className="contactText">
+                    <p>
                         Professor in Charge <br />
                         Department of Chemical Engineering <br />
                         BITS Pilani K K Birla Goa Campus <br />
@@ -26,9 +26,10 @@ function Footer() {
 
             <div className="social">
                 <p className="contactTitle">Created And Maintained</p>
-                <p className="contactText"> 
-                    Utkarsh Singh <br />
-                    Deept Ratna
+                <p> 
+                    <a className="link" href="https://www.linkedin.com/in/0xanon0602/"> Utkarsh Singh </a>
+                    <br/>
+                    <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/"> Deept Ratna </a>
                 </p>
             </div>
 

@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Error404 from './components/404';
 
 import Vision from './subcomponents/About/Vision';
+import IndustryPartners from './subcomponents/About/Industry-Partners';
 
 import Hydrogen from './subcomponents/Research/Hydrogen'
 import Biofuels from './subcomponents/Research/Biofuels'
@@ -32,6 +33,7 @@ function App() {
             <Route path="/home" element={<Homepage />} />
 
             <Route path="/about/vision-mission" element={<Vision />} />
+            <Route path="/about/industry-partners" element={<IndustryPartners />} />
             
             <Route path="/research/hydrogen" element={<Hydrogen />} />
             <Route path="/research/biofuels" element={<Biofuels />} />
@@ -39,14 +41,10 @@ function App() {
             <Route path="/research/carbon-capture" element={<Carbon />} />
 
 
-            <Route path="/faculty/hydrogen" element={<AssociatedFacultyHydrogen />} />
-            <Route path="/faculty/biofuels" element={<AssociatedFacultyBiofuels />} />
-            <Route path="/faculty/renewables" element={<AssociatedFacultyRenewables />} />
-            <Route path="/faculty/carbon-capture" element={<AssociatedFacultyCarbonCapture />} />
-
-            <Route path="/people/associated-faculty" element={<AssociatedFacultyHydrogen />} />
-
-
+            <Route path="/people/associated-faculty/hydrogen" element={<AssociatedFacultyHydrogen />} />
+            <Route path="/people/associated-faculty/biofuels" element={<AssociatedFacultyBiofuels />} />
+            <Route path="/people/associated-faculty/renewables" element={<AssociatedFacultyRenewables />} />
+            <Route path="/people/associated-faculty/carbon-capture" element={<AssociatedFacultyCarbonCapture />} />
             
             <Route path="*" element={<Error404 />} />
 
