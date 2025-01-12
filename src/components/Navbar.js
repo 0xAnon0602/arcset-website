@@ -58,14 +58,23 @@ const menuData = [
 ];
 function Navbar() {
   const [openNested, setOpenNested] = useState(null);
+  const [dropdownOpen, setDropdownOpen] = useState(null);
 
   const handleNestedClick = (menuIndex, optionKey) => {
-    // If the same nested menu is open, close it
     if (openNested?.menuIndex === menuIndex && openNested?.optionKey === optionKey) {
       setOpenNested(null);
     } else {
       setOpenNested({ menuIndex, optionKey });
     }
+  };
+
+  const handleMouseEnter = (title) => {
+    setDropdownOpen(title);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownOpen(null);
+    setOpenNested(null); 
   };
 
   return (
@@ -79,47 +88,54 @@ function Navbar() {
       </div>
 
       {menuData.map((menu, index) => (
-        <div className="menu" key={index}>
+        <div
+          className="menu"
+          key={index}
+          onMouseEnter={() => handleMouseEnter(menu.title)}
+          onMouseLeave={handleMouseLeave}
+        >
           <button className="menu-button">{menu.title}</button>
-          <div className="dropdown">
-            {Object.keys(menu.options).map((option) => {
-              const item = menu.options[option];
+          {dropdownOpen === menu.title && (
+            <div className="dropdown">
+              {Object.keys(menu.options).map((option) => {
+                const item = menu.options[option];
 
-              if (item?.type === 'nested') {
-                const isOpen =
-                  openNested?.menuIndex === index && openNested?.optionKey === option;
+                if (item?.type === 'nested') {
+                  const isOpen =
+                    openNested?.menuIndex === index && openNested?.optionKey === option;
+                  return (
+                    <div key={option}>
+                      <NavLink
+                        onClick={() => handleNestedClick(index, option)}
+                      >
+                        {option}
+                      </NavLink>
+
+                      {isOpen && (
+                      <div className="nested-dropdown">
+                        {Object.keys(item.items).map((subOption) => (
+                          <NavLink 
+                            to={item.items[subOption]} 
+                            key={subOption} 
+                            style={{ display: 'block', fontSize: '14px' }}
+                          >
+                            {subOption}
+                          </NavLink>
+                        ))}
+                      </div>
+                      )}
+                      </div>
+                    );
+                }
+
                 return (
-                  <div key={option}>
-                    <NavLink
-                      onClick={() => handleNestedClick(index, option)}
-                    >
-                      {option}
-                    </NavLink>
-
-                    {isOpen && (
-                    <div className="nested-dropdown">
-                      {Object.keys(item.items).map((subOption) => (
-                        <NavLink 
-                          to={item.items[subOption]} 
-                          key={subOption} 
-                          style={{ display: 'block', fontSize: '14px' }}
-                        >
-                          {subOption}
-                        </NavLink>
-                      ))}
-                    </div>
-                    )}
-                    </div>
-                  );
-              }
-
-              return (
-                <NavLink to={menu.options[option]} key={option}>
-                  {option}
-                </NavLink>
-              );
-            })}
-          </div>
+                  <NavLink to={menu.options[option]} key={option}>
+                    {option}
+                  </NavLink>
+                );
+              })}
+            </div>
+          )}
         </div>
       ))}
 
