@@ -128,6 +128,14 @@ function Navbar() {
                     );
                 }
 
+                if (item.startsWith('http')) {
+                  return (
+                    <a href={item} key={option} target="_blank">
+                      {option}
+                    </a>
+                  );
+                }
+
                 return (
                   <NavLink to={menu.options[option]} key={option}>
                     {option}
@@ -140,7 +148,7 @@ function Navbar() {
       ))}
 
       <div className="bitsLogo">
-        <a href="https://www.bits-pilani.ac.in/goa/">
+        <a href="https://www.bits-pilani.ac.in/goa/" target="_blank">
           <img src={bitsLogo} alt="Logo" width="65" />
         </a>
       </div>

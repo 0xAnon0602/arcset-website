@@ -160,13 +160,13 @@ function Homepage() {
       <div className="industryInfo">
         <p className="industryTitle">Industry Partners</p>
         <div className="industryLogos">
-          <a href="https://www.next-chemx.com/" className="logoContainer">
+          <a href="https://www.next-chemx.com/" target="_blank" className="logoContainer">
             <img style={{ width: '250px', height: '60px' }} src={industryLogo[0]} className="industryLogoImage" />
           </a>
-          <a href="https://ionexchangeglobal.com/" className="logoContainer">
+          <a href="https://ionexchangeglobal.com/" target="_blank" className="logoContainer">
             <img style={{ width: '180px', height: '60px' }} src={industryLogo[1]} className="industryLogoImage" />
           </a>
-          <a href="https://www.chemdistgroup.com/" className="logoContainer">
+          <a href="https://www.chemdistgroup.com/" target="_blank" className="logoContainer">
             <img style={{ width: '120px', height: '60px' }} src={industryLogo[2]} className="industryLogoImage" />
           </a>
         </div>

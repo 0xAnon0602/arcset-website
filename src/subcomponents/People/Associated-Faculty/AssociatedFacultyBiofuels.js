@@ -1,7 +1,7 @@
 function AssociatedFaculty({ name, position, department, college, imageUrl, link }) {
     return (
         <div className="faculty-card">
-            <a href={link} style={{textDecoration: "none"}}> 
+            <a href={link} target="_blank" style={{textDecoration: "none"}}> 
             <img src={imageUrl} alt={`${name}'s photo`} />
             <h2>{name}</h2>
             <p>{position}</p>

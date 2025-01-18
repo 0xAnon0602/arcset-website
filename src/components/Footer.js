@@ -27,9 +27,9 @@ function Footer() {
             <div className="social">
                 <p className="contactTitle">Created And Maintained</p>
                 <p> 
-                    <a className="link" href="https://www.linkedin.com/in/0xanon0602/"> Utkarsh Singh </a>
+                    <a className="link" href="https://www.linkedin.com/in/0xanon0602/" target="_blank"> Utkarsh Singh </a>
                     <br/>
-                    <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/"> Deept Ratna </a>
+                    <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/" target="_blank"> Deept Ratna </a>
                 </p>
             </div>
 
