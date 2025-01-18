@@ -20,8 +20,7 @@ function IndustryPartners() {
         `Chemdist Group, established in 2013, is a leading provider of process technology, engineering, and equipment solutions in the chemical industry. 
         Specializing in separation technologies, they offer a comprehensive range of products and services, including distillation columns, heat exchangers, membrane systems, and green energy solutions. 
         Their commitment to innovation and sustainability is evident through collaborations with esteemed institutions and a portfolio of over 10 patents. 
-        With a global presence, Chemdist Group serves diverse industries by delivering customized, cost-effective engineering solutions. 
-        CHEMDIST GROUP`
+        With a global presence, Chemdist Group serves diverse industries by delivering customized, cost-effective engineering solutions. `
     ]
 
     const industryLinks = [

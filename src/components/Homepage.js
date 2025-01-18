@@ -1,5 +1,10 @@
 import coeLogo from '../images/logo/coeLogo.jpg'
 import backgroundVideo from '../images/background.mp4';
+
+import LabImage1 from '../images/lab/1.jpg';
+import LabImage2 from '../images/lab/2.jpg';
+import LabImage3 from '../images/lab/3.jpg';
+
 import '../css/Homepage.css'
 
 import React, { useState, useEffect } from 'react';
@@ -13,10 +18,9 @@ function Homepage() {
   ]
 
   const labImages = [
-    'https://images.unsplash.com/photo-1667995508178-e24e78cd944c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://plus.unsplash.com/premium_photo-1661434779070-cf8fc0e253ab?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    LabImage1,
+    LabImage2,
+    LabImage3,
   ];
 
   const labTexts = [
