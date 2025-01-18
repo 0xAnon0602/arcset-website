@@ -8,6 +8,8 @@ import Error404 from './components/404';
 
 import Vision from './subcomponents/About/Vision';
 import IndustryPartners from './subcomponents/About/Industry-Partners';
+import Advisory from './subcomponents/About/Advisory';
+import Leadership from './subcomponents/About/Leadership';
 
 import Hydrogen from './subcomponents/Research/Hydrogen'
 import Biofuels from './subcomponents/Research/Biofuels'
@@ -34,6 +36,8 @@ function App() {
 
             <Route path="/about/vision-mission" element={<Vision />} />
             <Route path="/about/industry-partners" element={<IndustryPartners />} />
+            <Route path="/about/advisory-committee" element={<Advisory />} />
+            <Route path="/about/leadership" element={<Leadership />} />
             
             <Route path="/research/hydrogen" element={<Hydrogen />} />
             <Route path="/research/biofuels" element={<Biofuels />} />
