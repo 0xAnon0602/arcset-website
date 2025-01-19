@@ -23,6 +23,22 @@ export default function AssociatedFacultyHydrogen() {
             link: "https://www.bits-pilani.ac.in/hyderabad/naveenkumar-shrivastava/"
         },
         {
+            name: "Sampatrao Dagu Manjare",
+            position:"Professor",
+            department: "Chemical Engineering Department",
+            college: "BITS Pilani, Goa Campus",
+            imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/g0185.jpg",
+            link: "https://www.bits-pilani.ac.in/goa/sampatrao-dagu-manjare/"
+        },
+        {
+            name: "Pradeep Kumar Sow",
+            position:"Associate Professor",
+            department: "Chemical Engineering Department",
+            college: "BITS Pilani, Goa Campus",
+            imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/64485401_10219705515813284_2402715210595958784_n.jpg",
+            link: "https://www.bits-pilani.ac.in/goa/pradeep-kumar-sow/"
+        },
+        {
             name: "Richa Singhal",
             position:"Associate Professor",
             department: "Chemical Engineering Department",

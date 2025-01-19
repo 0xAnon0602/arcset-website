@@ -31,10 +31,10 @@ function Leadership() {
         },
         {
             name: "Suman Kundu",
-            department: "Padma Bhushan Awardee",
+            department: "Senior Professor - Biological Sciences",
             college: "Director - BITS Pilani, Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Prof.-Suman-Kundu.jpg",
-            link: "https://en.wikipedia.org/wiki/Jyeshtharaj_Joshi"
+            link: "https://www.bits-pilani.ac.in/goa/suman-kundu/"
         }
 ]
 
