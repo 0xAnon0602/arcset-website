@@ -109,7 +109,7 @@ function Homepage() {
         </div>
 
         <div className="otherText">
-          <p>First of a kind Energy Center<br/>"For Goa, Of Goa, By Goa"</p>
+          <p>First of a kind Energy Center</p>
         </div> 
       </div>
 

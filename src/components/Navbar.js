@@ -35,18 +35,19 @@ const menuData = [
           'Carbon Capture': '/people/associated-faculty/carbon-capture',
         },
       },
-      'Visiting/Chair Professors': '/people/visiting-chair-professors',
-      'PhD Students': '/people/phd-students',
-      'Postdoctoral': '/people/postdoctoral',
+      'Coordinators': '/people/coordinators',
+      'Emeritus Professors': '/people/emeritus-professors',
+      // 'PhD Students': '/people/phd-students',
+      // 'Postdoctoral': '/people/postdoctoral',
     },
   },
-  {
-    title: 'Outreach',
-    options: {
-      'Seminars': '/outreach/seminars',
-      'Workshops': '/outreach/workshops',
-    },
-  },
+  // {
+  //   title: 'Outreach',
+  //   options: {
+  //     'Seminars': '/outreach/seminars',
+  //     'Workshops': '/outreach/workshops',
+  //   },
+  // },
   {
     title: 'Openings',
     options: {
