@@ -1,9 +1,11 @@
-import coeLogo from '../images/logo/coeLogo.jpg'
+import ceoLogo from '../images/logo/coeLogoWithoutText.jpg'
 import backgroundVideo from '../images/background.mp4';
 
-import LabImage1 from '../images/lab/1.jpg';
 import LabImage2 from '../images/lab/2.jpg';
 import LabImage3 from '../images/lab/3.jpg';
+import LabImage4 from '../images/lab/4.jpg';
+import LabImage5 from '../images/lab/5.jpg';
+
 
 import '../css/Homepage.css'
 
@@ -18,19 +20,16 @@ function Homepage() {
   ]
 
   const labImages = [
-    LabImage1,
     LabImage2,
     LabImage3,
+    LabImage4,
+    LabImage5
   ];
 
   const labTexts = [
     {
-      title: "Lab And Prototypes 1",
-      description: "Description for image 1."
-    },
-    {
-      title: "Lab And Prototypes 2",
-      description: "Description for image 2."
+      title: "Algae Carbon Capture",
+      description: "Intelligent Photo Bioreactor for Carbon Capture"
     },
     {
       title: "Lab And Prototypes 3",
@@ -39,6 +38,10 @@ function Homepage() {
     {
       title: "Lab And Prototypes 4",
       description: "Description for image 4."
+    },
+    {
+      title: "Lab And Prototypes 5",
+      description: "Description for image 5."
     }
   ];
 
@@ -102,10 +105,12 @@ function Homepage() {
 
         <div className="mainTitle">
           <span> ARCSET </span>
+          <img src={ceoLogo} width="150px" height="150px" className="coeLogoWithText"></img>
         </div>
 
         <div className="secondaryText">
           <p> Advanced Research Centre For Sustainable Energy Technologies </p>
+     
         </div>
 
         <div className="otherText">

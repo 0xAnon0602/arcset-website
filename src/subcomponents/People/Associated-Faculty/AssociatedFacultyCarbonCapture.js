@@ -43,6 +43,15 @@ export default function AssociatedFacultyCarbonCapture() {
             otherTitle:"Co-Convener"
         },
         {
+            "name":"N. N. Ghosh",
+            "position":"Professor",
+            "department":"Department of Chemistry",
+            "college":"BITS Pilani, Goa Campus",
+            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Photo-Narendra-nath-Ghosh.jpeg",
+            "link":"https://www.bits-pilani.ac.in/goa/narendra-nath-ghosh/",
+            otherTitle:"Co-Convener"
+        },
+        {
             "name":"Anasua Guharay",
             "position":"Associate Professor",
             "department":"Civil Engineering Department",
@@ -57,14 +66,6 @@ export default function AssociatedFacultyCarbonCapture() {
             "college":"BITS Pilani, Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Personal-Profile.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/devendra-gokul-patil/"
-        },
-        {
-            "name":"N. N. Ghosh",
-            "position":"Professor",
-            "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
-            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Photo-Narendra-nath-Ghosh.jpeg",
-            "link":"https://www.bits-pilani.ac.in/goa/narendra-nath-ghosh/"
         },
         {
             "name":"Neena Goveas",
