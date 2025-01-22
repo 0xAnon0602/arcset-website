@@ -32,43 +32,33 @@ function Homepage() {
       description: "Intelligent Photo Bioreactor for Carbon Capture"
     },
     {
-      title: "Lab And Prototypes 3",
-      description: "Description for image 3."
+      title: "Unmixed Combustion Test Rig",
+      description: "For Syngas (CO + H2) Production."
     },
     {
       title: "Lab And Prototypes 4",
       description: "Description for image 4."
     },
     {
-      title: "Lab And Prototypes 5",
+      title: "Electrochemical Flow Cell",
       description: "Description for image 5."
     }
   ];
 
   const achievemntImages = [
-    'https://images.unsplash.com/photo-1728933102332-a4f1a281a621?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://plus.unsplash.com/premium_photo-1663047734922-fb593d415039?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1551677629-c3e314ecf29c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://images.unsplash.com/photo-1649421493620-48f1bb0484cc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://images.unsplash.com/photo-1676313414325-2a877a95dd10?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   ];
 
   const achievementText = [
     {
-      title: "Achievement 1",
-      description: "Description for image 1."
+      title: "National Green Hydrogen Mission Scheme",
+      description: "Call for Proposals under Research and Development Scheme of National Green Hydrogen Mission"
     },
     {
-      title: "Achievement 2",
-      description: "Description for image 2."
+      title: "DBT-EU Cooperation Programme",
+      description: "Programme on R&I ‘Horizon Europe’ Calls 2023-2024"
     },
-    {
-      title: "Achievement 3",
-      description: "Description for image 3."
-    },
-    {
-      title: "Achievement 4",
-      description: "Description for image 4."
-    }
   ];
   
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -105,7 +95,7 @@ function Homepage() {
 
         <div className="mainTitle">
           <span> ARCSET </span>
-          <img src={ceoLogo} width="150px" height="150px" className="coeLogoWithText"></img>
+          <img src={ceoLogo} width="170px" height="150px" className="coeLogoWithText"></img>
         </div>
 
         <div className="secondaryText">
@@ -154,7 +144,7 @@ function Homepage() {
                   <p className="labOtherText">{achievementText[index].description}</p>
                 </div>
               </div>
-              <div className="carousel">
+              <div style={{"width":"80%"}} className="carousel">
                 <img src={image} alt={`Slide ${index}`} />
               </div>
             </div>
