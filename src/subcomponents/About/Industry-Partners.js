@@ -34,7 +34,7 @@ function IndustryPartners() {
             <p className="componentTitle">Industry Partners</p>
             {industryLogo.map((logo, index) => (
                 <div key={index} className="industryPartner">
-                    <a href={industryLinks[index]} target="_blank" className="logoContainer">
+                    <a href={industryLinks[index]} target="_blank" rel="noopener noreferrer" className="logoContainer">
                         <img src={logo} alt={`Industry Partner ${index + 1}`} className="industryLogo" />
                     </a>
                     <p className="industryDescription">{industryDescription[index]}</p>

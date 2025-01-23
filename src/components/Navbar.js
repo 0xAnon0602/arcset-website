@@ -36,7 +36,7 @@ const menuData = [
         },
       },
       'Coordinators': '/people/coordinators',
-      'Emeritus Professors': '/people/emeritus-professors',
+      'Emeritus Professor': '/people/emeritus-professor',
       // 'PhD Students': '/people/phd-students',
       // 'Postdoctoral': '/people/postdoctoral',
     },
@@ -131,7 +131,7 @@ function Navbar() {
 
                 if (item.startsWith('http')) {
                   return (
-                    <a href={item} key={option} target="_blank">
+                    <a href={item} key={option} target="_blank" rel="noopener noreferrer">
                       {option}
                     </a>
                   );
@@ -149,7 +149,7 @@ function Navbar() {
       ))}
 
       <div className="bitsLogo">
-        <a href="https://www.bits-pilani.ac.in/goa/" target="_blank">
+        <a href="https://www.bits-pilani.ac.in/goa/" target="_blank" rel="noopener noreferrer">
           <img src={bitsLogo} alt="Logo" width="65" />
         </a>
       </div>

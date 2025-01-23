@@ -36,8 +36,8 @@ function Homepage() {
       description: "For Syngas (CO + H2) Production."
     },
     {
-      title: "Lab And Prototypes 4",
-      description: "Description for image 4."
+      title: "Mixed Mode Forced Convection Solar Dryer",
+      description: "For Agriculture and Marine Food Products"
     },
     {
       title: "Electrochemical Flow Cell",
@@ -53,11 +53,13 @@ function Homepage() {
   const achievementText = [
     {
       title: "National Green Hydrogen Mission Scheme",
-      description: "Call for Proposals under Research and Development Scheme of National Green Hydrogen Mission"
+      description: "Call for Proposals under Research and Development Scheme of National Green Hydrogen Mission",
+      link:"https://mnre.gov.in/en/notice/call-for-proposals-under-research-and-development-scheme-of-national-green-hydrogen-mission/"
     },
     {
       title: "DBT-EU Cooperation Programme",
-      description: "Programme on R&I ‘Horizon Europe’ Calls 2023-2024"
+      description: "Programme on R&I ‘Horizon Europe’ Calls 2023-2024",
+      link:"https://dbtindia.gov.in/latest-announcement/dbt-eu-coopration-programme-ri-%E2%80%98horizon-europe%E2%80%99-calls-2023-2024"
     },
   ];
   
@@ -137,17 +139,17 @@ function Homepage() {
           style={{ transform: `translateX(-${currentAchievementIndex * 100}%)` }}
         >
           {achievemntImages.map((image, index) => (
-            <div key={index} className="labSlide">
+            <a key={index} href={achievementText[index].link} target="_blank" rel="noopener noreferrer" className="labSlide" style={{ textDecoration: "none" }}>
               <div className="labTextSection">
                 <div className="labText">
                   <p className="labTextMain">{achievementText[index].title}</p>
                   <p className="labOtherText">{achievementText[index].description}</p>
                 </div>
               </div>
-              <div style={{"width":"80%"}} className="carousel">
+              <div className="carousel">
                 <img src={image} alt={`Slide ${index}`} />
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
@@ -155,13 +157,13 @@ function Homepage() {
       <div className="industryInfo">
         <p className="industryTitle">Industry Partners</p>
         <div className="industryLogos">
-          <a href="https://www.next-chemx.com/" target="_blank" className="logoContainer">
+          <a href="https://www.next-chemx.com/" target="_blank" rel="noopener noreferrer" className="logoContainer">
             <img style={{ width: '250px', height: '60px' }} src={industryLogo[0]} className="industryLogoImage" />
           </a>
-          <a href="https://ionexchangeglobal.com/" target="_blank" className="logoContainer">
+          <a href="https://ionexchangeglobal.com/" target="_blank" rel="noopener noreferrer" className="logoContainer">
             <img style={{ width: '180px', height: '60px' }} src={industryLogo[1]} className="industryLogoImage" />
           </a>
-          <a href="https://www.chemdistgroup.com/" target="_blank" className="logoContainer">
+          <a href="https://www.chemdistgroup.com/" target="_blank" rel="noopener noreferrer" className="logoContainer">
             <img style={{ width: '120px', height: '60px' }} src={industryLogo[2]} className="industryLogoImage" />
           </a>
         </div>

@@ -1,5 +1,5 @@
 
-function EmeritusProfessors() {
+function EmeritusProfessor() {
 
 
     const advisoryDescription = `Dr. Ramakrishna Ramanath Sonde is an esteemed Indian engineer and academician with a distinguished career spanning several decades. He began his professional journey at the Bhabha Atomic Research Center (BARC), where he was awarded the Dr. Homi Bhabha Gold Medal for his outstanding contributions to nuclear energy.  After 23 years at BARC, Dr. Sonde joined the National Thermal Power Corporation (NTPC) as Executive Director, establishing the Energy Technologies center, now known as NETRA.  He later served as Executive Vice President and Chief Technology Officer at Thermax Limited, focusing on innovation in energy and environmental technologies.  Currently, Dr. Sonde is a Guest Professor at the Indian Institute of Technology Gandhinagar and an Emeritus Professor at the Birla Institute of Technology and Science, Pilani.  His research interests include clean coal technologies, hydrogen energy, and carbon capture.  `
@@ -8,7 +8,7 @@ function EmeritusProfessors() {
     function AssociatedFaculty({ name, department, college, imageUrl, link }) {
         return (
             <div className="faculty-card">
-                <a href={link} target="_blank" style={{textDecoration: "none"}}> 
+                <a href={link} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}> 
                 <img src={imageUrl} alt={`${name}'s photo`} />
                 <h2>{name}</h2>
                 <p>{department}</p>
@@ -32,7 +32,7 @@ function EmeritusProfessors() {
         <div>
 
         <div>
-            <p className="componentTitle">Emeritus Professors</p>
+            <p className="componentTitle">Emeritus Professor</p>
                 <div className="industryPartner">
                     <div className="logoContainer">
                         <div className="faculty-cards-container advisoryImage">
@@ -47,4 +47,4 @@ function EmeritusProfessors() {
     );
 }
 
-export default EmeritusProfessors;
+export default EmeritusProfessor;

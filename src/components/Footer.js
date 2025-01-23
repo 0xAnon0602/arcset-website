@@ -27,11 +27,11 @@ function Footer() {
             <div className="social">
                 <p className="contactTitle">Created And Maintained</p>
                 <p> 
-                    <a className="link" href="https://www.linkedin.com/in/0xanon0602/" target="_blank"> Utkarsh Singh 
+                    <a className="link" href="https://www.linkedin.com/in/0xanon0602/" target="_blank" rel="noopener noreferrer"> Utkarsh Singh 
                         <SiLinkedin  style={{"marginLeft":"4px"}} size={15}/>
                     </a>
                     <br/>
-                    <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/" target="_blank"> Deept Ratna 
+                    <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/" target="_blank" rel="noopener noreferrer"> Deept Ratna 
                     <   SiLinkedin  style={{"marginLeft":"4px"}} size={15}/>
                     </a>
                 </p>

@@ -13,12 +13,12 @@ function Vision() {
             and around the world. </p>
 
             <p className="componentTitle secondaryTitle"> Mission </p>
-            <p className="componentText"> The Mission of the Center for Advancement in Sustainable Energy Technologies
-            (CASET) is to foster a sustainable energy future by supporting research, education,
+            <p className="componentText"> The Mission of the Advanced Research Centre For Sustainable Energy Technologies
+            (ARCSET) is to foster a sustainable energy future by supporting research, education,
             innovation, collaboration, and entrepreneurship in advanced energy technologies. The
             Center is dedicated to developing and implementing affordable, cutting-edge solutions
             that will reduce carbon emissions, enhance energy security, and ensure equitable
-            access to sustainable energy resources. Through a multidisciplinary approach, CASET
+            access to sustainable energy resources. Through a multidisciplinary approach, ARCSET
             will leverage the expertise of BITS Pilani faculty and engage external leaders from
             academia and industry to tackle complex energy challenges and drive transformative
             advancements in sustainable energy. </p>

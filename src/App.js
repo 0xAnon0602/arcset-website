@@ -21,7 +21,7 @@ import AssociatedFacultyBiofuels from './subcomponents/People/Associated-Faculty
 import AssociatedFacultyRenewables from './subcomponents/People/Associated-Faculty/AssociatedFacultyRenewables';
 import AssociatedFacultyCarbonCapture from './subcomponents/People/Associated-Faculty/AssociatedFacultyCarbonCapture';
 
-import EmeritusProfessors from './subcomponents/People/Emeritus-Professors';
+import EmeritusProfessor from './subcomponents/People/Emeritus-Professor';
 import Coordinators from './subcomponents/People/Coordinators';
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
             <Route path="/people/associated-faculty/carbon-capture" element={<AssociatedFacultyCarbonCapture />} />
             
             <Route path="/people/coordinators" element={<Coordinators />} />
-            <Route path="/people/emeritus-professors" element={<EmeritusProfessors />} />
+            <Route path="/people/emeritus-professor" element={<EmeritusProfessor />} />
 
             <Route path="*" element={<Error404 />} />
 

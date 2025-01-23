@@ -8,7 +8,7 @@ function Advisory() {
     function AssociatedFaculty({ name, department, college, imageUrl, link }) {
         return (
             <div className="faculty-card">
-                <a href={link} target="_blank" style={{textDecoration: "none"}}> 
+                <a href={link} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}> 
                 <img src={imageUrl} alt={`${name}'s photo`} />
                 <h2>{name}</h2>
                 <p>{department}</p>
