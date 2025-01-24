@@ -51,14 +51,6 @@ export default function AssociatedFacultyRenewables() {
             "link":"https://www.bits-pilani.ac.in/goa/devendra-gokul-patil/"
         },
         {
-            "name":"P Bhavana",
-            "position":"Professor",
-            "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
-            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Bhavana-1.jpg",
-            "link":"https://www.bits-pilani.ac.in/goa/p-bhavana"
-        },
-        {
             "name":"Paramita Haldar",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
