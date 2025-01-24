@@ -92,6 +92,14 @@ export default function AssociatedFacultyBiofuels() {
             "link":"https://www.bits-pilani.ac.in/goa/sampatrao-dagu-manjare/"
         },
         {
+            "name":"Sumit Biswas",
+            "position":"Professor",
+            "department":"Department of Biological Sciences",
+            "college":"BITS Pilani, Goa Campus",
+            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0412-Sumit-Biswas.jpg",
+            "link":"https://www.bits-pilani.ac.in/goa/sumit-biswas/"
+        },
+        {
             "name":"Supratim Ghosh",
             "position":"Assistant Professor",
             "department":"Department of Biological Sciences",
