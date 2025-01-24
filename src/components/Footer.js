@@ -1,5 +1,8 @@
 import '../css/Footer.css'
 import { SiLinkedin } from "react-icons/si";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+
 
 function Footer() {
     return (
@@ -10,8 +13,7 @@ function Footer() {
                 <div className="contact">
                     <p className="contactTitle">Contact</p>
                     <p>
-                        Professor in Charge <br />
-                        Department of Chemical Engineering <br />
+                    <NavLink style={{ textDecoration:"none",color: "white" }} to="/people/coordinators"> Coordinators <FaExternalLinkAlt size={12}/></NavLink> <br />
                         BITS Pilani K K Birla Goa Campus <br />
                         NH 17B, Bypass, Road, Zuarinagar <br />
                         Sancoale, Goa 403726
@@ -32,7 +34,7 @@ function Footer() {
                     </a>
                     <br/>
                     <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/" target="_blank" rel="noopener noreferrer"> Deept Ratna 
-                    <   SiLinkedin  style={{"marginLeft":"4px"}} size={15}/>
+                        <SiLinkedin  style={{"marginLeft":"4px"}} size={15}/>
                     </a>
                 </p>
             </div>
