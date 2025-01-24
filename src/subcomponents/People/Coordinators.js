@@ -16,6 +16,14 @@ function AssociatedFaculty({ name, position, department, college, imageUrl, link
 export default function Coordinators() {
     const facultyData = [
         {
+            "name":"Ranjit Shankarrao Patil",
+            "position":"Associate Professor",
+            "department":"Mechanical Engineering Department",
+            "college":"BITS Pilani, Goa Campus",
+            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0482-Ranjit-Patil.jpg",
+            "link":"https://www.bits-pilani.ac.in/goa/ranjit-shankarrao-patil/"
+        },
+        {
             "name":"Srikanta Dinda",
             "position":"Professor",
             "department":"Chemical Engineering Department",
