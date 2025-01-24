@@ -131,7 +131,7 @@ function Homepage() {
         </div>
       </div>
 
-      <p className="industryTitle">New Achievements</p>
+      <p className="industryTitle">News & Achievements</p>
 
       <div className="labMain">
         <div
