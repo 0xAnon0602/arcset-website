@@ -21,6 +21,7 @@ const menuData = [
       'Biofuels': '/research/biofuels',
       'Renewables': '/research/renewables',
       'Carbon Capture': '/research/carbon-capture',
+      'Ongoing Projects': '/research/ongoing-projects',
     },
   },
   {

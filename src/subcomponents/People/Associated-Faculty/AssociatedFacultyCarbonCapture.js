@@ -20,7 +20,7 @@ export default function AssociatedFacultyCarbonCapture() {
             position:"Professor",
             department: "Chemical Engineering Department",
             college: "BITS Pilani, Goa Campus",
-            imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/unnamed-4.jpg",
+            imageUrl: "https://i.ibb.co/GFGYqTH/unnamed.jpg",
             link: "https://www.bits-pilani.ac.in/goa/srinivas-krishnaswamy/",
             otherTitle:"Convener"
         },
@@ -128,7 +128,7 @@ export default function AssociatedFacultyCarbonCapture() {
             "position":"Associate Professor",
             "department":"Chemical Engineering Department",
             "college":"BITS Pilani, Hyderabad Campus",
-            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Vikranth.jpg",
+            "imageUrl":"https://media.licdn.com/dms/image/v2/C4E03AQGYbH15pfhA6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517687898341?e=2147483647&v=beta&t=HBX7xOLR__k6vfADI0M0JVvpFKzU0Ft6SavB5iHfOco",
             "link":"https://www.bits-pilani.ac.in/hyderabad/prof-vikranth-kumar-surasani/"
         }
     

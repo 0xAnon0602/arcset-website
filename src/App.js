@@ -15,6 +15,7 @@ import Hydrogen from './subcomponents/Research/Hydrogen'
 import Biofuels from './subcomponents/Research/Biofuels'
 import Renewables from './subcomponents/Research/Renewables'
 import Carbon from './subcomponents/Research/Carbon'
+import OngoingProjects from './subcomponents/Research/Ongoing-Projects';
 
 import AssociatedFacultyHydrogen from './subcomponents/People/Associated-Faculty/AssociatedFacultyHydrogen'
 import AssociatedFacultyBiofuels from './subcomponents/People/Associated-Faculty/AssociatedFacultyBiofuels';
@@ -46,6 +47,7 @@ function App() {
             <Route path="/research/biofuels" element={<Biofuels />} />
             <Route path="/research/renewables" element={<Renewables />} />
             <Route path="/research/carbon-capture" element={<Carbon />} />
+            <Route path="/research/ongoing-projects" element={<OngoingProjects />} />
 
 
             <Route path="/people/associated-faculty/hydrogen" element={<AssociatedFacultyHydrogen />} />

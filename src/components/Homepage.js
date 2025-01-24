@@ -33,7 +33,7 @@ function Homepage() {
     },
     {
       title: "Unmixed Combustion Test Rig",
-      description: "For Syngas (CO + H2) Production."
+      description: "Enviromentally Friendly Alternative Pathway For Combustion"
     },
     {
       title: "Mixed Mode Forced Convection Solar Dryer",
@@ -41,7 +41,7 @@ function Homepage() {
     },
     {
       title: "Electrochemical Flow Cell",
-      description: "Description for image 5."
+      description: "For Conducting Chemical Reaction on Continuous Basis"
     }
   ];
 
