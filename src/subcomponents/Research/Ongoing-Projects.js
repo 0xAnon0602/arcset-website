@@ -23,27 +23,57 @@ function OngoingProjects() {
             link: "https://www.bits-pilani.ac.in/goa/anirban-roy/",
         },
         {
+            name: "ABHISHEK SHARMA",
+            imageUrl: "https://media.licdn.com/dms/image/v2/C4D03AQGZITZpgbqoiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629897290473?e=1741824000&v=beta&t=equql9HN_RbuOUIsbe2F-wYGyBmOmnmFUyauQiLM8iQ",
+            link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
+        },
+        {
+            name:"Srinivas Appari",
+            imageUrl:"https://www.bits-pilani.ac.in/wp-content/uploads/srinivas.jpg",
+            link:"https://www.bits-pilani.ac.in/hyderabad/srinivas-appari/"
+        },
+        {
+            name: "ABHISHEK SHARMA",
+            imageUrl: "https://media.licdn.com/dms/image/v2/C4D03AQGZITZpgbqoiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629897290473?e=1741824000&v=beta&t=equql9HN_RbuOUIsbe2F-wYGyBmOmnmFUyauQiLM8iQ",
+            link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
+        },
+        {
             name: "Anirban Roy",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Anirban-Roy.jpg",
             link: "https://www.bits-pilani.ac.in/goa/anirban-roy/",
-        }
+        },
     ]
 
     const projectData = [
         {
             title:"Sustainable High Purity Hydrogen production using Chemical Looping combustion in a Packed Bed reactor: An energy efficient and environmental friendly alternative to convention Steam Reforming",
             fundingAgency:"GAIL (India) Limited",
-            funding:"Rs 3,08,33,046/",
+            funding:"Rs 3,08,33,046",
         },
         {
             title:"Development of Advanced Next Generation Energy Technologies",
             fundingAgency:"Next-ChemX, Nevada, USA",
-            funding:"Rs 2,83,00,000/",
+            funding:"Rs 2,83,00,000",
+        },
+        {
+            title:"Jodhpur City Knowledge and Innovation Foundation- Hydrogen Valley Innovation Cluster",
+            fundingAgency:"DST",
+            funding:"Rs 2,00,00,000",
+        },
+        {
+            title:"Proof - of - Concept (PoC) Design of CO2 Hydrogenation to Methanol",
+            fundingAgency:"Siemens",
+            funding:"Rs 24,78,000",
+        },
+        {
+            title:"H2 production from agricultural residue using a thermo-chemical route",
+            fundingAgency:"Ecosense ",
+            funding:"Rs 22,00,000",
         },
         {
             title:"Developing Advanced Membrane System Design Software",
             fundingAgency:"Ion Exchange India Pvt Ltd",
-            funding:" Rs 7,20,000/",
+            funding:" Rs 7,20,000",
         }
     ]
 
@@ -61,9 +91,9 @@ function OngoingProjects() {
                         </div>
                     </div>
                     <div className="industryDescription">
-                        <p>Title : {projectData[index].title}</p>
-                        <p>Funding Agency : {projectData[index].fundingAgency}</p>
-                        <p>Funding : {projectData[index].funding}</p>
+                        <p> <span style={{fontWeight:800}}>Project Title :</span> {projectData[index].title}</p>
+                        <p><span style={{fontWeight:800}}>Funding Agency : </span>{projectData[index].fundingAgency}</p>
+                        <p><span style={{fontWeight:800}}>Funding : </span> {projectData[index].funding}</p>
                     </div>
 
                 </div>

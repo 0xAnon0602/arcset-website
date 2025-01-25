@@ -18,7 +18,7 @@ export default function AssociatedFacultyRenewables() {
             name: "Ranjit Shankarrao Patil",
             position:"Associate Professor",
             department: "Mechanical Engineering Department",
-            college: "BITS Pilani, Goa Campus",
+            college: "BITS Pilani, K K Birla Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/G0482-Ranjit-Patil.jpg",
             link: "https://www.bits-pilani.ac.in/goa/ranjit-shankarrao-patil/",
             otherTitle:"Convener"
@@ -46,7 +46,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Devndra G Patil",
             "position":"Assistant Professor",
             "department":"Mechanical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Personal-Profile.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/devendra-gokul-patil/"
         },
@@ -54,7 +54,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Paramita Haldar",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0742-Paramita-Haldar.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/paramita-haldar/"
         },
@@ -62,7 +62,7 @@ export default function AssociatedFacultyRenewables() {
             name: "Pritanshu Ranjan",
             position:"Assistant Professor",
             department: "Mechanical Engineering Department",
-            college: "BITS Pilani, Goa Campus",
+            college: "BITS Pilani, K K Birla Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/G0708-Pritanshu-Ranjan.jpg",
             link: "https://www.bits-pilani.ac.in/goa/pritanshu-ranjan/"
         },
@@ -70,7 +70,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Puneet Siwach",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/My-Pic-for-Website-2.jpeg",
             "link":"https://www.bits-pilani.ac.in/goa/puneet-siwach/"
         },
@@ -78,7 +78,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Siddhartha Tripathi",
             "position":"Assistant Professor",
             "department":"Mechanical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/siddhu.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/siddhartha-tripathi/"
         },
@@ -86,7 +86,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Subhadeep Banerjee",
             "position":"Associate Professor",
             "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/me-1.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/subhadeep-banerjee/"
         },
@@ -94,7 +94,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Sudarshan Swain",
             "position":"Assistant Professor",
             "department":"Electrical and Electronics Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0865-Sudarshan-Swain.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/sudarshan-swain/"
         },
@@ -102,7 +102,7 @@ export default function AssociatedFacultyRenewables() {
             "name":"Swastibrata Bhattacharyya",
             "position":"Assistant Professor",
             "department":"Department of Physics",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/swasti.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/swastibrata-bhattacharyya/"
         }

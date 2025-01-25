@@ -19,7 +19,7 @@ export default function AssociatedFacultyCarbonCapture() {
             name: "Srinivas Krishnaswamy ",
             position:"Professor",
             department: "Chemical Engineering Department",
-            college: "BITS Pilani, Goa Campus",
+            college: "BITS Pilani, K K Birla Goa Campus",
             imageUrl: "https://i.ibb.co/GFGYqTH/unnamed.jpg",
             link: "https://www.bits-pilani.ac.in/goa/srinivas-krishnaswamy/",
             otherTitle:"Convener"
@@ -46,7 +46,7 @@ export default function AssociatedFacultyCarbonCapture() {
             "name":"N. N. Ghosh",
             "position":"Professor",
             "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Photo-Narendra-nath-Ghosh.jpeg",
             "link":"https://www.bits-pilani.ac.in/goa/narendra-nath-ghosh/",
             otherTitle:"Co-Convener"
@@ -63,7 +63,7 @@ export default function AssociatedFacultyCarbonCapture() {
             "name":"Devndra G Patil",
             "position":"Assistant Professor",
             "department":"Mechanical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Personal-Profile.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/devendra-gokul-patil/"
         },
@@ -71,7 +71,7 @@ export default function AssociatedFacultyCarbonCapture() {
             "name":"Neena Goveas",
             "position":"Professor",
             "department":"Computer Science and Information System Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Neena_Photo_2023_JSN_0322.jpeg",
             "link":"https://www.bits-pilani.ac.in/goa/neena-goveas/"
         },
@@ -95,7 +95,7 @@ export default function AssociatedFacultyCarbonCapture() {
             "name":"Ranjit Shankarrao Patil",
             "position":"Associate Professor",
             "department":"Mechanical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0482-Ranjit-Patil.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/ranjit-shankarrao-patil/"
         },

@@ -106,7 +106,7 @@ function Homepage() {
         </div>
 
         <div className="otherText">
-          <p>First of a kind Energy Center</p>
+          <p>For A Sustainable Tomorrow</p>
         </div> 
       </div>
 

@@ -19,7 +19,7 @@ export default function Coordinators() {
             "name":"Ranjit Shankarrao Patil",
             "position":"Associate Professor",
             "department":"Mechanical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0482-Ranjit-Patil.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/ranjit-shankarrao-patil/"
         },

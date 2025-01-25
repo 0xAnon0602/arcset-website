@@ -34,7 +34,7 @@ function Leadership() {
         {
             name: "Suman Kundu",
             department: "Senior Professor - Biological Sciences",
-            college: "Director - BITS Pilani, Goa Campus",
+            college: "Director - BITS Pilani, K K Birla Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Prof.-Suman-Kundu.jpg",
             link: "https://www.bits-pilani.ac.in/goa/suman-kundu/"
         },

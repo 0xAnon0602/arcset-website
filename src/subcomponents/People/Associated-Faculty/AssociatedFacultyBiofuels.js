@@ -19,7 +19,7 @@ export default function AssociatedFacultyBiofuels() {
             name: "Anirban Roy",
             position:"Associate Professor",
             department: "Chemical Engineering Department",
-            college: "BITS Pilani, Goa Campus",
+            college: "BITS Pilani, K K Birla Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Anirban-Roy.jpg",
             link: "https://www.bits-pilani.ac.in/goa/anirban-roy/",
             otherTitle:"Convener"
@@ -55,7 +55,7 @@ export default function AssociatedFacultyBiofuels() {
             "name":"Amol Deshpande",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/DSJ_6137.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/amol-anilrao-deshpande"
         },
@@ -71,7 +71,7 @@ export default function AssociatedFacultyBiofuels() {
             "name":"Jayita Chopra",
             "position":"Visiting Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/photo.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/jayita-chopra/"
         },
@@ -79,7 +79,7 @@ export default function AssociatedFacultyBiofuels() {
             "name":"Riju De",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/IMG_20201202_222228.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/riju-de/"
         },
@@ -87,7 +87,7 @@ export default function AssociatedFacultyBiofuels() {
             "name":"Sampatrao Dagu Manjare",
             "position":"Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/g0185.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/sampatrao-dagu-manjare/"
         },
@@ -95,7 +95,7 @@ export default function AssociatedFacultyBiofuels() {
             "name":"Sumit Biswas",
             "position":"Professor",
             "department":"Department of Biological Sciences",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0412-Sumit-Biswas.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/sumit-biswas/"
         },
@@ -111,7 +111,7 @@ export default function AssociatedFacultyBiofuels() {
             "name":"Vivek Rangarajan",
             "position":"Associate Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Profile-pic.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/vivek-rangarajan/"
         }

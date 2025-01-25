@@ -19,7 +19,7 @@ export default function AssociatedFacultyHydrogen() {
             name: "Pradeep Kumar Sow",
             position:"Associate Professor",
             department: "Chemical Engineering Department",
-            college: "BITS Pilani, Goa Campus",
+            college: "BITS Pilani, K K Birla Goa Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/64485401_10219705515813284_2402715210595958784_n.jpg",
             link: "https://www.bits-pilani.ac.in/goa/pradeep-kumar-sow/",
             otherTitle:"Convener"
@@ -43,6 +43,15 @@ export default function AssociatedFacultyHydrogen() {
             otherTitle:"Co-Convener"
         },
         {
+            "name":"Kiran Vankayala",
+            "position":"Assistant Professor",
+            "department":"Department of Chemistry",
+            "college":"BITS Pilani, K K Birla Goa Campus",
+            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Nano-Jatha_-2024-22-scaled-e1731402579119.jpg",
+            "link":"https://www.bits-pilani.ac.in/goa/vankayala-kiran",
+            otherTitle:"Co-Convener"
+        },
+        {
             "name":"Afkham Mir",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
@@ -54,23 +63,15 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Amol Deshpande",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/DSJ_6137.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/amol-anilrao-deshpande"
-        },
-        {
-            "name":"Kiran Vankayala",
-            "position":"Assistant Professor",
-            "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
-            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Nano-Jatha_-2024-22-scaled-e1731402579119.jpg",
-            "link":"https://www.bits-pilani.ac.in/goa/vankayala-kiran"
         },
         {
             "name":"P Bhavana",
             "position":"Professor",
             "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Bhavana-1.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/p-bhavana"
         },
@@ -86,7 +87,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"S. S. Baral",
             "position":"Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Photo-Passport-size-1.png",
             "link":"https://www.bits-pilani.ac.in/goa/saroj-sundar-baral"
         },
@@ -94,7 +95,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Sampatrao Dagu Manjare",
             "position":"Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/g0185.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/sampatrao-dagu-manjare/"
         },
@@ -110,7 +111,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Sudipta Chatterjee",
             "position":"Assistant Professor",
             "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/20221030071915_IMG_4062-01-Copy.jpeg",
             "link":"https://www.bits-pilani.ac.in/goa/sudipta-chatterjee"
         },
@@ -118,7 +119,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Swastibrata Bhattacharyya",
             "position":"Assistant Professor",
             "department":"Department of Physics",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/swasti.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/swastibrata-bhattacharyya"
         },
@@ -126,7 +127,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Teny Theresa John",
             "position":"Associate Professor",
             "department":"Department of Physics",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/G0348-Teny-Theresa.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/teny-theresa-john"
         },
@@ -134,7 +135,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Upasana Mahanta",
             "position":"Assistant Professor",
             "department":"Chemical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Profile.jpeg",
             "link":"https://www.bits-pilani.ac.in/goa/upasana-mahanta"
         },
@@ -142,7 +143,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Varinder Singh",
             "position":"Associate Professor",
             "department":"Mechanical Engineering Department",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/WhatsApp-Image-2022-10-10-at-20.59.34.jpeg",
             "link":"https://www.bits-pilani.ac.in/goa/varinder-singh"
         },
@@ -150,7 +151,7 @@ export default function AssociatedFacultyHydrogen() {
             "name":"Woormileela Sinha",
             "position":"Assistant Professor",
             "department":"Department of Chemistry",
-            "college":"BITS Pilani, Goa Campus",
+            "college":"BITS Pilani, K K Birla Goa Campus",
             "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/unnamed-104.jpg",
             "link":"https://www.bits-pilani.ac.in/goa/woormileela-sinha"
         }
