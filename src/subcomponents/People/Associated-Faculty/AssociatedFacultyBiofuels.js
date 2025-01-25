@@ -47,7 +47,7 @@ export default function AssociatedFacultyBiofuels() {
             position:"Professor",
             department: "Chemical Engineering Department",
             college: "Manipal University Jaipur",
-            imageUrl: "https://media.licdn.com/dms/image/v2/C4D03AQGZITZpgbqoiQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629897290473?e=1741824000&v=beta&t=equql9HN_RbuOUIsbe2F-wYGyBmOmnmFUyauQiLM8iQ",
+            imageUrl: "https://jaipur.manipal.edu/admin/photo/3/faculty/19/93.jpg",
             link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
             otherTitle:"Co-Convener"
         },
