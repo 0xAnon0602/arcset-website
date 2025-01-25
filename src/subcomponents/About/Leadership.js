@@ -26,29 +26,29 @@ function Leadership() {
     const facultyData = [
         {
             name: "V. Ramgopal Rao",
-            department: "Acting Director - BITS PILANI",
-            college: "Vice Chancellor - BITS PILANI",
+            department: "Vice Chancellor - BITS PILANI",
+            college: "Acting Director - BITS PILANI",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/prof-vrao.jpg",
             link: "https://www.bits-pilani.ac.in/pilani/v-ramgopal-rao/"
         },
         {
             name: "Suman Kundu",
-            department: "Senior Professor - Biological Sciences",
-            college: "Director - BITS Pilani, K K Birla Goa Campus",
+            department: "Director - BITS Pilani, K K Birla Goa Campus",
+            college: "Senior Professor - Biological Sciences",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Prof.-Suman-Kundu.jpg",
             link: "https://www.bits-pilani.ac.in/goa/suman-kundu/"
         },
         {
             name: "Soumyo Mukherji",
-            department: "Senior Professor - Electrical Engineering",
-            college: "Director - BITS Pilani, Hyderabad Campus",
+            department: "Director - BITS Pilani, Hyderabad Campus",
+            college: "Senior Professor - Electrical Engineering",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/DirectorBPHC.png",
             link: "https://www.bits-pilani.ac.in/hyderabad/mukherjis/"
         },
         {
             name: "Souri Banerjee",
-            department: "Senior Professor - Physics Department",
-            college: "Director - BITS Pilani, Dubai Campus",
+            department: "Director - BITS Pilani, Dubai Campus",
+            college: "Senior Professor - Physics Department",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/BIT_3942-scaled.jpg",
             link: "https://www.bits-pilani.ac.in/dubai/souribanerjee/"
         }
