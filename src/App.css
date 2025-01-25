@@ -5,6 +5,7 @@
     text-align: center;
     margin: 4% 8cap;
     padding: 0% 2%;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
 }
 
 .componentText {
