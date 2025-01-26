@@ -10,7 +10,8 @@
 
 .componentText {
     margin-top: -1%;
-    font-size: 25px;
+    font-size: 24px;
+    text-align: justify;
 }
 
 .componentTitle {
@@ -101,4 +102,5 @@
 
 .boxCustomization2 {
     margin: 0%;
+    text-align: left;
 }
