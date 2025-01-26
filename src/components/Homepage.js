@@ -106,7 +106,7 @@ function Homepage() {
         </div>
 
         <div className="otherText">
-          <p>For A Sustainable Tomorrow</p>
+          <p style={{fontStyle: "italic"}}>"For A Sustainable Tomorrow"</p>
         </div> 
       </div>
 
