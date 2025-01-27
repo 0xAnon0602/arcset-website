@@ -43,7 +43,7 @@ export default function AssociatedFacultyRenewables() {
             otherTitle:"Co-Convener"
         },
         {
-            "name":"Devndra G Patil",
+            "name":"Devendra G Patil",
             "position":"Assistant Professor",
             "department":"Mechanical Engineering Department",
             "college":"BITS Pilani, K K Birla Goa Campus",

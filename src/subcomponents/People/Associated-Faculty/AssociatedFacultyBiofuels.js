@@ -43,7 +43,7 @@ export default function AssociatedFacultyBiofuels() {
             otherTitle:"Co-Convener"
         },
         {
-            name: "ABHISHEK SHARMA",
+            name: "Abhishek Sharma",
             position:"Professor",
             department: "Chemical Engineering Department",
             college: "Manipal University Jaipur",

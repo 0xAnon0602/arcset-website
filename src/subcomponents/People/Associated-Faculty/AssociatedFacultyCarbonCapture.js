@@ -60,7 +60,7 @@ export default function AssociatedFacultyCarbonCapture() {
             "link":"https://www.bits-pilani.ac.in/hyderabad/anasua-guharay/"
         },
         {
-            "name":"Devndra G Patil",
+            "name":"Devendra G Patil",
             "position":"Assistant Professor",
             "department":"Mechanical Engineering Department",
             "college":"BITS Pilani, K K Birla Goa Campus",

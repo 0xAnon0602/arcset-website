@@ -23,7 +23,7 @@ function OngoingProjects() {
             link: "https://www.bits-pilani.ac.in/goa/anirban-roy/",
         },
         {
-            name: "ABHISHEK SHARMA",
+            name: "Abhishek Sharma",
             imageUrl: "https://jaipur.manipal.edu/admin/photo/3/faculty/19/93.jpg",
             link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
         },

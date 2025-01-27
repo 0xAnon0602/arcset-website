@@ -40,8 +40,8 @@ function Homepage() {
       description: "For Agriculture and Marine Food Products"
     },
     {
-      title: "Electrochemical Flow Cell",
-      description: "For Conducting Chemical Reaction on Continuous Basis"
+      title: "Flowfield design for Electrochemical Cell",
+      description: "Enabling Continuous Electrochemical Reactions"
     }
   ];
 
