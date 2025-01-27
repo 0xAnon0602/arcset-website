@@ -92,6 +92,14 @@ export default function AssociatedFacultyBiofuels() {
             "link":"https://www.bits-pilani.ac.in/goa/sampatrao-dagu-manjare/"
         },
         {
+            "name":"S. S. Baral",
+            "position":"Professor",
+            "department":"Chemical Engineering Department",
+            "college":"BITS Pilani, K K Birla Goa Campus",
+            "imageUrl":"https://www.bits-pilani.ac.in/wp-content/uploads/Photo-Passport-size-1.png",
+            "link":"https://www.bits-pilani.ac.in/goa/saroj-sundar-baral"
+        },
+        {
             "name":"Sumit Biswas",
             "position":"Professor",
             "department":"Department of Biological Sciences",
