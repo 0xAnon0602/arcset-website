@@ -81,8 +81,8 @@ function OngoingProjects() {
         ],
         [
             {
-                title:"Developing Advanced Membrane System Design Software",
-                fundingAgency:"Ion Exchange India Pvt Ltd",
+                title:" Improvement of Alkaline Water Electrolyzer (AWE) for Green H2 Production to Supplement CO2 to Methanol Process",
+                fundingAgency:"Siemens",
                 funding:" Rs 20,88,265",
             }
         ]
