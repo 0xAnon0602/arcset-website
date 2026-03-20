@@ -14,7 +14,7 @@ import React, { useState, useEffect } from 'react';
 function Homepage() {
 
   const industryLogo = [
-    "https://www.next-chemx.com/wp-content/themes/nextchemx/assets/img/logo.png",
+    "https://www.next-chemx.com/wp-content/uploads/go-x/u/b592aba9-e44e-4946-9115-4cab9c435f2c/l0,t0,w404,h86/image.png",
     "https://ionexchangeglobal.com/app/uploads/2022/05/ion-logo.webp",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopngCefg2XIl_1WQTv-9X9CMAcdU5aWns3Q&s",
   ]

@@ -15,14 +15,23 @@ function AssociatedFaculty({ name, position, department, college, imageUrl, link
 
 export default function AssociatedFacultyBiofuels() {
     const facultyData = [
+        // {
+        //     name: "Anirban Roy",
+        //     position:"Associate Professor",
+        //     department: "Chemical Engineering Department",
+        //     college: "BITS Pilani, K K Birla Goa Campus",
+        //     imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Anirban-Roy.jpg",
+        //     link: "https://www.bits-pilani.ac.in/goa/anirban-roy/",
+        //     otherTitle:"Convener"
+        // },
         {
-            name: "Anirban Roy",
-            position:"Associate Professor",
+            name: "Abhishek Sharma",
+            position:"Professor",
             department: "Chemical Engineering Department",
-            college: "BITS Pilani, K K Birla Goa Campus",
-            imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/Anirban-Roy.jpg",
-            link: "https://www.bits-pilani.ac.in/goa/anirban-roy/",
-            otherTitle:"Convener"
+            college: "Manipal University Jaipur",
+            imageUrl: "https://jaipur.manipal.edu/admin/photo/3/faculty/19/93.jpg",
+            link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
+            otherTitle:"Co-Convener"
         },
         {
             name: "Dr Pratik N Sheth",

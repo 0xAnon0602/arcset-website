@@ -1,5 +1,5 @@
 import '../css/Footer.css'
-import { SiLinkedin } from "react-icons/si";
+import { ImLinkedin } from "react-icons/im";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -30,11 +30,11 @@ function Footer() {
                 <p className="contactTitle">Created And Maintained</p>
                 <p> 
                     <a className="link" href="https://www.linkedin.com/in/0xanon0602/" target="_blank" rel="noopener noreferrer"> Utkarsh Singh 
-                        <SiLinkedin  style={{"marginLeft":"4px"}} size={15}/>
+                        <ImLinkedin  style={{"marginLeft":"4px"}} size={15}/>
                     </a>
                     <br/>
                     <a className="link" href="https://www.linkedin.com/in/deept-ratna-2b5747256/" target="_blank" rel="noopener noreferrer"> Deept Ratna 
-                        <SiLinkedin  style={{"marginLeft":"4px"}} size={15}/>
+                        <ImLinkedin  style={{"marginLeft":"4px"}} size={15}/>
                     </a>
                 </p>
             </div>
@@ -44,7 +44,7 @@ function Footer() {
                 <p className="contactTitle">Connect With Us </p>
                 <p>arcset.energy@goa.bits-pilani.ac.in</p>
                 {/* <div className='socialLogo'>
-                    <SiLinkedin  size={18}/>
+                    <ImLinkedin  size={18}/>
                 </div> */}
             </div>
 
