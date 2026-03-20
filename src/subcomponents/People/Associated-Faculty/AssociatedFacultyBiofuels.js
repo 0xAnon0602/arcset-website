@@ -31,7 +31,7 @@ export default function AssociatedFacultyBiofuels() {
             college: "Manipal University Jaipur",
             imageUrl: "https://jaipur.manipal.edu/admin/photo/3/faculty/19/93.jpg",
             link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
-            otherTitle:"Co-Convener"
+            otherTitle:"Convener & Co-Convener"
         },
         {
             name: "Dr Pratik N Sheth",
@@ -49,15 +49,6 @@ export default function AssociatedFacultyBiofuels() {
             college: "BITS Pilani, Hyderabad Campus",
             imageUrl: "https://www.bits-pilani.ac.in/wp-content/uploads/iyman-abrar.jpg",
             link: "https://www.bits-pilani.ac.in/hyderabad/iyman-abrar/",
-            otherTitle:"Co-Convener"
-        },
-        {
-            name: "Abhishek Sharma",
-            position:"Professor",
-            department: "Chemical Engineering Department",
-            college: "Manipal University Jaipur",
-            imageUrl: "https://jaipur.manipal.edu/admin/photo/3/faculty/19/93.jpg",
-            link: "https://www.linkedin.com/in/abhishek-sharma-11aa7b12/",
             otherTitle:"Co-Convener"
         },
         {
